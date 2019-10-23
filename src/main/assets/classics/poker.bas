@@ -6,7 +6,7 @@
 30 DEF FNB(X)=X-100*INT(X/100)
 40 PRINT "Welcome to the casion. We each have $200."
 50 PRINT "I will open the betting before the draw;"
-55 PRINT "you open after."
+55 PRINT "you open after."
 60 PRINT "To fold bet 0; to check bet .5."
 70 PRINT "Enough talk -- let's get down to business."
 80 PRINT
@@ -73,7 +73,7 @@
 690 PRINT "Now I have $"; C; "and you have $"; S
 700 PRINT "Do you wish to continue";
 710 INPUT H$
-715 IF H$ = "" THEN 740
+715 IF H$ = "" THEN 740
 720 IF LEFT$(H$, 1)="Y" OR LEFT$(H$, 1)="y" THEN 120
 730 IF LEFT$(H$, 1)="N" OR LEFT$(H$, 1)="n" THEN 4100
 740 PRINT "Answer yes or no, please."
@@ -361,14 +361,14 @@
 3530 IF (O/2)<>INT(O/2) THEN 3600
 3540 PRINT "Would you like to buy back your watch for $50";
 3550 INPUT J$
-3560 IF LEFT$(J$,1)="N" OR LEFT$(J$,1)="n" THEN 3600
+3560 IF LEFT$(J$,1)="N" OR LEFT$(J$,1)="n" THEN 3600
 3570 C=C+50
 3580 O=O/2
 3590 RETURN
 3600 IF O/3<>INT(O/3) THEN 3670
 3610 PRINT "Would you like to buy back your tie tack for $50";
 3620 INPUT J$
-3630 IF LEFT$(J$,1)="N" OR LEFT$(J$,1)="n" THEN 3670
+3630 IF LEFT$(J$,1)="N" OR LEFT$(J$,1)="n" THEN 3670
 3640 C=C+50
 3650 O=O/3
 3660 RETURN
