@@ -72,9 +72,9 @@
 690 PRINT "Now I have $"; C; "and you have $"; S
 700 PRINT "Do you wish to continue";
 710 INPUT H$
-715 IF H$ = "" THEN 740
-720 IF LEFT$(H$, 1)="Y" OR LEFT$(H$, 1)="y" THEN 120
-730 IF LEFT$(H$, 1)="N" OR LEFT$(H$, 1)="n" THEN 4100
+715 IF H$ = "" THEN 740
+720 IF LEFT$(H$, 1)="Y" OR LEFT$(H$, 1)="y" THEN 120
+730 IF LEFT$(H$, 1)="N" OR LEFT$(H$, 1)="n" THEN 4100
 740 PRINT "Answer yes or no, please."
 750 GOTO 700
 760 IF I<>4 THEN 810
