@@ -5,7 +5,8 @@
 20 DEF FNA(X)=INT(10*RND(1))
 30 DEF FNB(X)=X-100*INT(X/100)
 40 PRINT "Welcome to the casion. We each have $200."
-50 PRINT "I will open the betting before the draw; you open after."
+50 PRINT "I will open the betting before the draw;"
+55 PRINT "you open after."
 60 PRINT "To fold bet 0; to check bet .5."
 70 PRINT "Enough talk -- let's get down to business."
 80 PRINT
@@ -310,13 +311,13 @@
 3030 I$="ouse, "
 3040 RETURN
 3050 G=0
-3060 PRINT:PRINT "WHAT IS YOUR BET";
+3060 PRINT:PRINT "What is your bet";
 3070 INPUT T
 3080 IF T-INT(T)=0 THEN 3140
 3090 IF K<>0 THEN 3120
 3100 IF G<>0 THEN 3120
 3110 IF T=.5 THEN 3410
-3120 PRINT "NO SMALL CHANGE, PLEASE."
+3120 PRINT "No small change, please."
 3130 GOTO 3060
 3140 IF S-G-T>=0 THEN 3170
 3150 GOSUB 3830
