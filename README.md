@@ -20,4 +20,4 @@ The BASIC used is limited to ECMA 55 with the following extensions:
   - MID$
   - RIGHT$
 
-All basic programs are expected to run in vintage-basic.net interpreter.
+These extensions should mostly match the ones of http://vintage.basic.net and all BASIC programs will still run in the vintage basic interpreter. They should also run with the BASIC interpreter expression parser demo: https://github.com/stefanhaustein/expressionparser
