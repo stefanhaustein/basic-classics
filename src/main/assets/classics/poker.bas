@@ -1,13 +1,14 @@
 2 PRINT "POKER"
 4 PRINT "Creative Computing  Morristown, New Jersey"
-6 PRINT: PRINT: PRINT
+6 PRINT: PRINT
 10 DIM A(50),B(15)
 20 DEF FNA(X)=INT(10*RND(1))
 30 DEF FNB(X)=X-100*INT(X/100)
-40 PRINT "Welcome to the casion. We each have $200."
+40 PRINT "Welcome to the casino. We each have $200."
 50 PRINT "I will open the betting before the draw;"
 55 PRINT "you open after."
-60 PRINT "To fold bet 0; to check bet .5."
+60 PRINT
+65 PRINT "To fold bet 0; to check bet .5."
 70 PRINT "Enough talk -- let's get down to business."
 80 PRINT
 90 LET O=1
